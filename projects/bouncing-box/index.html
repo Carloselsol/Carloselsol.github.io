@@ -8,7 +8,7 @@
         .box {
             width: 70px;
             height: 70px;
-            background-color: teal;
+            background-color: rgb(250, 95, 12);
             font-size: 300%;
             text-align: center;
             display: block;
@@ -91,10 +91,10 @@
             function handleBoxClick() {
                 positionX = 0;
                 points = points + 1;
-                if(speed>0){
+                if ( speed > 0 ) {
                     speed = speed + 3
                 }
-                else if (speed<0){
+                else if ( speed < 0 ) {
                     speed = speed-3
                 }
                 changeBoxText(points);
